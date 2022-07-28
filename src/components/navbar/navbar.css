@@ -1,0 +1,20 @@
+:root{
+    --brown:#EC8C6F,
+    --dark:#3B4948,
+    --white:#fff,
+}
+
+.nav{
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+
+.inp{
+   
+    outline: none !important;
+}
+
+.form-control:focus {
+    border-color:linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    box-shadow: none !important;
+  }
